@@ -21,13 +21,14 @@ DATA: The dataset.zip consists of three Matlab .mat files, each of which contain
 - All_BD cells: all 48 BD cells recorded from the 2box 
 - All_TD cells: all 67 TD cells recorded from the 4box 
 
-%     The mdata structures should be easy to navigate but here are some pointers:
+%%     The mdata structures should be easy to navigate but here are some pointers:
 %         Recordings consist of onefold environments (e.g., circular arena, at least 2 trials, usually trial 'a' and 'g') that flank the multi-fold environments (at least 5 tirals, usually trial 'b'-'f').
 %         Cell data such as spikes are saved in fields named using a unique cell identifier (uci) 
 %         This consists of the rat, date, tetrode and cluster. These can be generated in loops etc
 %         if you know which cell you want like this:
 %         uci = ['r' rat_num '_' date '_t' tetrode_num_as_string '_c' cluster_num_as_string];
 
-%     For each cell you can find the several analysed features (column headers are self-explanatory), such as cluster quality,  
+%%     For each single unit, you can find the several analysed features (column headers are self-explanatory), such as cluster quality,  
 %         waveform information of each unit, shuffle data of that cell, HDtuning in the overall environment and within each
-%         subcompartment, egocentric analyses etc. Refer to the code for more details. 
+%         subcompartment, the symmetry scores, and the results from egocentric analyses etc. 
+% Refer to our paper and code mentioned above for more details. 
