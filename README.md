@@ -1,8 +1,8 @@
 # Journal of Neurosci_Zhang_et_al_2022
 Data &amp; Code for Zhang et al. 2022, published in Journal or Neuroscience https://doi.org/10.1523/JNEUROSCI.0619-22.2022
 
-**CODE: the Code zip.file contain 2 main functions of analyses: contest_v2 and egoTEST_v2, and their dependencies.
-**
+**CODE: Code zip.file contains 2 main functions of analyses: contest_v2 and egoTEST_v2 and their dependencies**
+
 %% contest_v2  function for analysing directional cells in different environments (e.g.multicompartment maze, 2-box and 4-box)
 %     A function for analysing the data collected from the 1-box,2-box and 4-box (multicompartment maze)
 %     This uses an 'sdata' structure, produced by custom-built MATLAB code to analyze raw data (see https://www.nature.com/articles/s41467-020-14611-7)
