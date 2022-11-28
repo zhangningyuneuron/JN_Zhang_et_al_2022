@@ -20,4 +20,4 @@ Each of which contains a MATLAB structure (named mdata) that summarises the anal
 
 %%     For each single unit, you can find the several analysed features (column headers are self-explanatory), such as cluster quality, waveform information of each unit, shuffle data of that cell, HDtuning in the overall environment and within each subcompartment, the symmetry scores, and the results from egocentric analyses etc. 
 
-%%  Refer to our paper and code mentioned above for more details. 
+%%  For more details, please refer to our paper. 
