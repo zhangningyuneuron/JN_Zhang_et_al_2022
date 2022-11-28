@@ -12,8 +12,7 @@ CODE: the Code zip.file contain 2 main functions of analyses: contest_v2 and ego
 
 %% egoTEST_v2  function for analysing egocentric boundary tuning in different environments (e.g.multicompartment maze, 2-box and 4-box)
 %     This function should be run following contest_v2 (specifies maze frame/boundaries)
-%     This function mainly replicates the analysis reported in:
-%     Alexander et al. (2019) Egocentric boundary vector tuning of the retrosplenial cortex (http://dx.doi.org/10.1101/702712)
+%     This function mainly replicates the analysis reported in: Alexander et al. (2019) Egocentric boundary vector tuning of the retrosplenial cortex (http://dx.doi.org/10.1101/702712)
 %     with an aim to test for any egocentric boundary cell coding that might be embedded in our dataset. Most of the analysed results is placed in the sdata structure. 
 
 DATA: The dataset.zip consists of three Matlab .mat files, each of which contains a structure (named mdata) that summarises the data recorded from different experiments:
@@ -29,6 +28,6 @@ DATA: The dataset.zip consists of three Matlab .mat files, each of which contain
 %         uci = ['r' rat_num '_' date '_t' tetrode_num_as_string '_c' cluster_num_as_string];
 
 %%     For each single unit, you can find the several analysed features (column headers are self-explanatory), such as cluster quality,  
-%         waveform information of each unit, shuffle data of that cell, HDtuning in the overall environment and within each
-%         subcompartment, the symmetry scores, and the results from egocentric analyses etc. 
+   waveform information of each unit, shuffle data of that cell, HDtuning in the overall environment and within each subcompartment, the symmetry scores, and the results from egocentric analyses etc. 
+
 % Refer to our paper and code mentioned above for more details. 
