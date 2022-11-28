@@ -1,6 +1,7 @@
 # JN_Zhang_et_al_2022
 Data &amp; Code for Zhang et al. 2022, published in Journal or Neuroscience https://doi.org/10.1523/JNEUROSCI.0619-22.2022
-% CODE: the zip.file contain 2 main functions: contest_v2 and egoTEST_v2, and their dependencies. 
+
+CODE: the zip.file contain 2 main functions: contest_v2 and egoTEST_v2, and their dependencies. 
 % descriptions below: 
 
 %% contest_v2  function for analysing directional cells in different environments (e.g.multicompartment maze, 2-box and 4-box)
