@@ -1,8 +1,8 @@
 # Journal of Neurosci_Zhang_et_al_2022
 Data &amp; Code for Zhang et al. 2022, published in Journal or Neuroscience https://doi.org/10.1523/JNEUROSCI.0619-22.2022
 
-CODE: the Code zip.file contain 2 main functions of analyses: contest_v2 and egoTEST_v2, and their dependencies.
-
+**CODE: the Code zip.file contain 2 main functions of analyses: contest_v2 and egoTEST_v2, and their dependencies.
+**
 %% contest_v2  function for analysing directional cells in different environments (e.g.multicompartment maze, 2-box and 4-box)
 %     A function for analysing the data collected from the 1-box,2-box and 4-box (multicompartment maze)
 %     This uses an 'sdata' structure, produced by custom-built MATLAB code to analyze raw data (see https://www.nature.com/articles/s41467-020-14611-7)
@@ -15,7 +15,8 @@ CODE: the Code zip.file contain 2 main functions of analyses: contest_v2 and ego
 %     This function mainly replicates the analysis reported in: Alexander et al. (2019) Egocentric boundary vector tuning of the retrosplenial cortex (http://dx.doi.org/10.1101/702712)
 %     We aimed to test for any egocentric boundary cell coding that might be embedded in our dataset. Most of the analysed results is placed in the sdata structure (see below). 
 
-DATA: The dataset.zip consists of three Matlab .mat files, each of which contains a MATLAB structure (named mdata) that summarises the data recorded from different experiments:
+**DATA: The dataset.zip consists of three Matlab .mat files.**
+Each of which contains a MATLAB structure (named mdata) that summarises the data recorded from different experiments:
 - All_HD cells: all 102 HD cells recorded from the 2box (mdata_2box) and 4box (mdata_4box) experiments, 1box trials were alse included.  
 - All_BD cells: all 48 BD cells recorded from the 2box (+ 1box trials) 
 - All_TD cells: all 67 TD cells recorded from the 4box (+ 1box trials) 
