@@ -25,7 +25,7 @@ DATA: The dataset.zip consists of three Matlab .mat files, each of which contain
 %         Cell data such as spikes are saved in fields named using a unique cell identifier (uci) 
 %         This consists of the rat, date, tetrode and cluster. These can be generated in loops etc
 %         if you know which cell you want like this:
-%         uci = ['rat_num'_'date' 'tetrode_num'_'cluster_num'_as_string];
+%         uci = rat_num, date, tetrode_num, cluster_id 
 
 %%     For each single unit, you can find the several analysed features (column headers are self-explanatory), such as cluster quality, waveform information of each unit, shuffle data of that cell, HDtuning in the overall environment and within each subcompartment, the symmetry scores, and the results from egocentric analyses etc. 
 
