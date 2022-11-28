@@ -1,5 +1,5 @@
 # Journal of Neurosci_Zhang_et_al_2022
-Data &amp; Code for Zhang et al. 2022, published in Journal or Neuroscience https://doi.org/10.1523/JNEUROSCI.0619-22.2022
+Data &amp; Code for Zhang et al. 2022, published in Journal of Neuroscience https://doi.org/10.1523/JNEUROSCI.0619-22.2022
 
 **CODE: Code zip.file contains 2 main functions of analyses: contest_v2 and egoTEST_v2 and their dependencies**
 
