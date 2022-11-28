@@ -10,7 +10,7 @@ Data &amp; Code for Zhang et al. 2022, published in Journal or Neuroscience http
 %     This function should be run following contest_v2 (specifies maze frame/boundaries). This function mainly replicates the analysis reported in: Alexander et al. (2019) Egocentric boundary vector tuning of the retrosplenial cortex (http://dx.doi.org/10.1101/702712). We aimed to test for any egocentric boundary cell coding that might be embedded in our dataset. Most of the analysed results is placed in the sdata structure (see below). 
 
 **DATA: The dataset.zip consists of three .mat files.**
-Each of which contains a MATLAB structure (named mdata) that summarises the data recorded from different experiments:
+Each of which contains a MATLAB structure (named mdata) that summarises the analysed data of different experiments
 - All_HD cells: all 102 HD cells recorded from the 2box (mdata_2box) and 4box (mdata_4box) experiments, 1box trials were alse included.  
 - All_BD cells: all 48 BD cells recorded from the 2box (+ 1box trials) 
 - All_TD cells: all 67 TD cells recorded from the 4box (+ 1box trials) 
